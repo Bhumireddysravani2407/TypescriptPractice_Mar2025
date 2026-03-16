@@ -2,6 +2,7 @@ import { MaxHospital } from "./MaxHospital";
 
 
 let mx = new MaxHospital();
+
 mx.physio();
 mx.cardio();
 mx.pedia();
@@ -11,6 +12,7 @@ mx.gastro();
 mx.emergency();
 mx.opt();
 mx.research();
+mx.billing();
 mx.covidVaccicantion();
 mx.publishMedicalNews();
 console.log(mx.min_fee);

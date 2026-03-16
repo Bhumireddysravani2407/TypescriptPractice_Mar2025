@@ -6,6 +6,7 @@ import { USMedical } from "./USMedical";
 export class MaxHospital extends Medical implements USMedical, UKMedical, IndianMedical{
     min_fee: number = 100;
     
+   // overrriden
     billing(): void {
         console.log('max -- billing');
     }
@@ -24,6 +25,7 @@ export class MaxHospital extends Medical implements USMedical, UKMedical, Indian
     emergency(): void {
         console.log('max -- emergency');
     }
+    
     
     //US
     physio(): void {
